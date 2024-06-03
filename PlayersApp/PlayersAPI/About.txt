@@ -1,0 +1,12 @@
+﻿The task is: 
+
+1) create a microservice which serves the contents of Player.csv through a REST API.
+
+The service should expose two REST endpoints:
+● GET /api/players - returns the list of all players.
+● GET /api/players/{playerID} - returns a single player by ID.
+* GET /api/players/page/{page} - returns the list of players by page
+
+2) create unit tests that cover the core logic.
+
+
