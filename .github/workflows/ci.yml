@@ -28,4 +28,4 @@ jobs:
 
     - name: Run tests
       run: dotnet test --no-restore --verbosity normal
-      working-directory: PlayersApp
+      working-directory: PlayersApp/PlayersAPITests
