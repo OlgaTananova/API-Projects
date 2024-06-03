@@ -9,4 +9,6 @@ The service should expose two REST endpoints:
 
 2) create unit tests that cover the core logic.
 
+3) add GitHub Actions
+
 
