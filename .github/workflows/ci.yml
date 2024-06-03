@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - playersApp  # Replace 'main' with the name of the branch you want to target
+      - main  # Replace 'main' with the name of the branch you want to target
 
 jobs:
   build:
