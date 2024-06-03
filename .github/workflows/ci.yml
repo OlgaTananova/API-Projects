@@ -27,5 +27,5 @@ jobs:
       working-directory: PlayersApp/PlayersAPI
 
     - name: Run tests
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet test
       working-directory: PlayersApp/PlayersAPITests
