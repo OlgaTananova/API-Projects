@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PlayersAPI.Models;
 using PlayersAPI.Services;
@@ -8,6 +9,7 @@ namespace PlayersAPI
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PlayersController : ControllerBase
     {
 
