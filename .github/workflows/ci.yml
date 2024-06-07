@@ -2,8 +2,9 @@ name: PlayersAppCI
 
 on:
   push:
-    branches:
-      - master  # Replace 'main' with the name of the branch you want to target
+    branches: [ "master"]
+  pull_request:
+    branches: [ "master" ]
 
 jobs:
   build:
